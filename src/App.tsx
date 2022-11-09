@@ -1,9 +1,12 @@
-function App() {
-  const [count, setCount] = useState(0)
+import { Button } from "./components/Button";
 
+export function App() {
   return (
-    <h1>d</h1>
+    <>
+    <Button variant="primary"/>
+    <Button variant="danger"/>
+    <Button variant="secondary"/>
+    <Button/>
+    </>
   )
 }
-
-export default App
