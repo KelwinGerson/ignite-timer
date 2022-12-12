@@ -4,16 +4,17 @@ import { GlobalStyle } from './components/styles/global';
 import { defaultTheme } from './components/styles/themes/default';
 
 export function App() {
+
   return (
-    //import theme default
-    <ThemeProvider theme={defaultTheme}>
-      <Button variant="primary"/>
-      <Button variant="danger"/>
-      <Button variant="secondary"/>
-      <Button/>
-
-
-      <GlobalStyle />
-    </ThemeProvider>
+    <>
+      <ThemeProvider theme={defaultTheme}>
+        <Button variant="primary" />
+        <Button variant="secondary" />
+        <Button variant="danger" />
+        <Button variant="success" />
+        <Button />
+        <GlobalStyle />
+      </ThemeProvider>
+    </>
   )
 }

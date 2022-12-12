@@ -4,6 +4,6 @@ import { defaultTheme } from '../components/styles/themes/default'
 type ThemeType = typeof defaultTheme;
 
 // sobreescrevendo tipagem já existente 
-declare module 'style-components' {
+declare module 'styled-components' {
     export interface DefaultTheme extends ThemeType {}
-}
+  }
