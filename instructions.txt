@@ -1,3 +1,8 @@
 npm create vite@latest
 npm i styled-components → the same semantic of ts but with css inside of code.
     npm i @types/styled-components -D 
+
+---------------
+
+ESLint 
+    Definir padrão com diversas regras.
