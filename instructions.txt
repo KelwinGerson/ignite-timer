@@ -10,3 +10,7 @@ ESLint
 
     ### Corrigindo erros definidos no padrao
         npx eslint src --ext .ts,.tsx --fix
+
+---------------
+
+npm i react-router-dom
