@@ -6,3 +6,7 @@ npm i styled-components → the same semantic of ts but with css inside of code.
 
 ESLint 
     Definir padrão com diversas regras.
+
+
+    ### Corrigindo erros definidos no padrao
+        npx eslint src --ext .ts,.tsx --fix
